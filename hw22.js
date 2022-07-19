@@ -8,10 +8,10 @@ $('h2.test').css({'color': 'red'});
 $('p').next('p').css({'color': 'red'});
 
 // Exercise 5.4
-$('li.www').next('li').css({'color': 'red'});
+$('li + li.www').css('color', 'red');
 
 // Exercise 5.5
-$('h2 > i').css({'color': 'red'});
+$('h2 i').css('color', 'red');
 
 // Exercise 5.6
 $('h2').children('i').css({'color': 'red'});
